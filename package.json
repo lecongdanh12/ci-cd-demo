@@ -4,7 +4,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "dev": "node --watch index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "echo No linting configured",
+    "build": "echo No build required"
   },
   "keywords": [],
   "author": "",
